@@ -1,13 +1,34 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>Mon site</title>
+<meta charset="UTF-8">
+<title>K-Pop FNF Game</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body style="text-align:center; margin-top:20%; font-size:30px;">
-  si vous lisez se message ça veut dire que vous avez été hacké
-  (fallait faire attention mdr)😂😂 
+<body>
 
-         de LUVI
+<h1>🎵 K-Pop Rhythm Game</h1>
+
+<div id="coins">🪙 0</div>
+
+<button onclick="startGame()">Jouer</button>
+
+<div id="game">
+    <div id="lanes">
+        <div class="lane">←</div>
+        <div class="lane">↓</div>
+        <div class="lane">↑</div>
+        <div class="lane">→</div>
+    </div>
+
+    <div id="notes"></div>
+
+    <img id="character" src="personnages/idol1/idle_1.png">
+</div>
+
+<audio id="music"></audio>
+
+<script src="game.js"></script>
 </body>
 </html>
+
